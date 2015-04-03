@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="templite.css">
+<script type="text/javascript" src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="templite.js"></script>
+<title>templite</title>
+<script type="text-html" id="tp1">
+{{for wenzhang in box}}
+{{if wenzhang.title == "标题1"}}
+	<h1>文章1的大标题</h1>
+{{endif}}
+<div class='kuai'><h3>{{wenzhang.title}}</h3><p class='author'>{{wenzhang.author}}</p><p>{{wenzhang.content}}</p></div>
+{{endfor}}
+{{zzz}}
+</script>
+</head>
+	<body>
+	<div class="author-info">123</div>
+	</body>
+</html>

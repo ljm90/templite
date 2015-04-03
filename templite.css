@@ -1,0 +1,15 @@
+.kuai{
+	border:1px solid #F00;
+}
+.author-info{
+	width:160px;
+	height:80px;
+	position: absolute;
+	display:none;
+	background:#f5f5f5;
+	opacity:0.93;
+	z-index:2;
+}
+.author-info.on{
+	display:block;
+}
